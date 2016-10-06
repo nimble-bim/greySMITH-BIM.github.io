@@ -87,12 +87,19 @@
     <Content Include="assets\sass\libs\_mixins.scss" />
     <Content Include="assets\sass\libs\_skel.scss" />
     <Content Include="assets\sass\libs\_vars.scss" />
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="index.html" />
+    <Content Include="_layouts\default.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="_config.yml" />
+    <Content Include="_layouts\post.html" />
+    <Content Include="_posts\2014-03-30-hank-quinlan-site-launched.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
@@ -121,14 +128,15 @@
     <Content Include="images\pic06.jpg" />
     <Content Include="images\pic07.jpg" />
     <Content Include="images\pic08.jpg" />
-    <Content Include="index.html" />
+    <Content Include="blog.html" />
     <Content Include="LICENSE.txt" />
-    <Content Include="README.txt" />
+    <None Include="README.md" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
