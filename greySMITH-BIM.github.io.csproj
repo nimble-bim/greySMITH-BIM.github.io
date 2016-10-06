@@ -89,6 +89,7 @@
     <Content Include="assets\sass\libs\_vars.scss" />
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
+    <Content Include="blog\index.html" />
     <Content Include="index.html" />
     <Content Include="_layouts\default.html" />
     <None Include="Web.Debug.config">
