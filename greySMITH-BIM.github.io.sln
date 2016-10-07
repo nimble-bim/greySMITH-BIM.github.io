@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "greySMITH-BIM.github.io", "greySMITH-BIM.github.io.csproj", "{785C93D7-0D1F-4A13-BDC7-6917A5F8288F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55011AEA-C37F-497D-8B5C-EA43FF08E225}"
+	ProjectSection(SolutionItems) = preProject
+		_site\index.html = _site\index.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
