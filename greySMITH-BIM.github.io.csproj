@@ -100,7 +100,7 @@
     </None>
     <Content Include="_config.yml" />
     <Content Include="_layouts\post.html" />
-    <None Include="_posts\2016-09-30-my-first-post.markdown" />
+    <None Include="_posts\2016-09-30-my-first-post.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
