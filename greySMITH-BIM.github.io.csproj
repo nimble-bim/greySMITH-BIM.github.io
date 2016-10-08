@@ -59,6 +59,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\default.css" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
@@ -100,8 +101,9 @@
     </None>
     <Content Include="_config.yml" />
     <Content Include="_layouts\post.html" />
-    <None Include="_posts\2016-09-30-my-first-post.md" />
     <Content Include="_posts\2016-10-08-windows-version.md" />
+    <Content Include="_posts\2016-10-07-from-draft.md" />
+    <Content Include="_drafts\draft-post.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
