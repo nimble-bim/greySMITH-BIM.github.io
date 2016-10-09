@@ -91,8 +91,28 @@
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include="blog\index.html" />
+    <Content Include="assets\css\lib\bootstrap-theme.css" />
+    <Content Include="assets\css\lib\bootstrap-theme.min.css" />
+    <Content Include="assets\css\lib\bootstrap.css" />
+    <Content Include="assets\css\lib\bootstrap.min.css" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\css\lib\bootstrap.min.css.map" />
+    <Content Include="assets\css\lib\bootstrap.css.map" />
+    <Content Include="assets\css\lib\bootstrap-theme.min.css.map" />
+    <Content Include="assets\css\lib\bootstrap-theme.css.map" />
+    <None Include="assets\js\jquery-1.9.1.intellisense.js" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery-1.9.1.js" />
+    <Content Include="assets\js\jquery-1.9.1.min.js" />
     <Content Include="_layouts\default.html" />
+    <Content Include="assets\js\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -140,7 +160,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

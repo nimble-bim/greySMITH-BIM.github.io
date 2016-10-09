@@ -3,31 +3,60 @@
     <head>
         <title>GREYSMITH - Digital Makers</title>
 
-	    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-	    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/default.css">
+		
         
     </head>
 
 	<body>
-		<nav id="menu">
+		<section id="Home">
+			<div id="head" class="row">
+				<div id="main-title" class="col-lg-12 greysmith">
+					<p id="greysmith"><span class="grey">GREY</span><span class="smith">SMITH</span></p>
+
+					<div id="enter-arrow">
+						<a href="#About">
+							<!--Enter-->
+							<span id="page-enter"
+								  class="fa fa-angle-down"
+								  aria-hidden="true">
+							</span>
+
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<nav id="menu" class="navbar" style="background-color: transparent">
+			<!--<a id="logo-button" class="navbar-brand greysmith" href="#"><span class="grey">GREY</span><span class="smith">SMITH</span></a>-->
 			<ul>
-				<li><a href="/">HOME</a></li>
-				<li><a href="/">ABOUT</a></li>
-				<li><a href="/">PRODUCTS</a></li>
-				<li><a href="/">NEWS</a></li>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#Products">Products</a></li>
+				<li><a href="#News">News</a></li>
 			</ul>
 		</nav>
 
-		<section id="Home">
-			<div id="main-title">
-				<p id="greysmith"><span id="grey">GREY</span><span id="smith">SMITH</span></p>
+		<section id="About">
+			<div class="row">
+				<div id="about-summary" class="col-lg-12">
+					
+				</div>
 			</div>
 		</section>
-		<section id="About"></section>
 		<section id="Products"></section>
 		<section id="News"></section>
+
+		<!--Bootstrap Content Scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 
 	</body>
 </html>
