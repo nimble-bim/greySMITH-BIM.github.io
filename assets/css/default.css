@@ -5,6 +5,7 @@
 body {
     width:100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     color: black;
     width: auto;
     overflow-x: hidden;
@@ -44,7 +45,7 @@ a:hover {
 
 #menu li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10vw;
 }
 
 #menu li:hover {
@@ -81,4 +82,13 @@ a:hover {
     -o-transform: scale(1.15);
     transform: scale(1.15);
 }
+
+/*#menu, #About, #Products, #News {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow:hidden
+}*/
 

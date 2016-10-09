@@ -65,6 +65,8 @@
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\images\chrome-capture.PNG" />
+    <Content Include="assets\js\app\system\animations.js" />
     <Content Include="assets\sass\ie8.scss" />
     <Content Include="assets\sass\ie9.scss" />
     <Content Include="assets\sass\main.scss" />
@@ -106,13 +108,21 @@
     <Content Include="assets\css\lib\bootstrap.css.map" />
     <Content Include="assets\css\lib\bootstrap-theme.min.css.map" />
     <Content Include="assets\css\lib\bootstrap-theme.css.map" />
-    <None Include="assets\js\jquery-1.9.1.intellisense.js" />
-    <Content Include="assets\js\bootstrap.js" />
-    <Content Include="assets\js\bootstrap.min.js" />
-    <Content Include="assets\js\jquery-1.9.1.js" />
-    <Content Include="assets\js\jquery-1.9.1.min.js" />
+    <None Include="assets\js\alllib\jquery-1.9.1.intellisense.js" />
+    <Content Include="assets\js\alllib\bootstrap.js" />
+    <Content Include="assets\js\alllib\bootstrap.min.js" />
+    <Content Include="assets\js\alllib\jquery-1.9.1.js" />
+    <Content Include="assets\js\alllib\jquery-1.9.1.min.js" />
+    <Content Include="assets\js\alllib\angular-mocks.js" />
+    <Content Include="assets\js\alllib\angular-route.js" />
+    <Content Include="assets\js\alllib\angular-route.min.js" />
+    <Content Include="assets\js\alllib\angular.js" />
+    <Content Include="assets\js\alllib\angular.min.js" />
+    <Content Include="sections\About.html" />
     <Content Include="_layouts\default.html" />
-    <Content Include="assets\js\jquery-1.9.1.min.map" />
+    <Content Include="assets\js\alllib\jquery-1.9.1.min.map" />
+    <Content Include="assets\js\alllib\angular.min.js.map" />
+    <Content Include="assets\js\alllib\angular-route.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,27 +142,10 @@
     <Content Include="assets\css\images\close.svg" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
-    <Content Include="assets\js\ie\backgroundsize.min.htc" />
-    <Content Include="assets\js\ie\html5shiv.js" />
-    <Content Include="assets\js\ie\PIE.htc" />
-    <Content Include="assets\js\ie\respond.min.js" />
-    <Content Include="assets\js\jquery.min.js" />
-    <Content Include="assets\js\jquery.scrollex.min.js" />
-    <Content Include="assets\js\main.js" />
-    <Content Include="assets\js\skel.min.js" />
-    <Content Include="assets\js\util.js" />
+    <Content Include="assets\js\alllib\jquery.min.js" />
+    <Content Include="assets\js\alllib\jquery.scrollex.min.js" />
     <Content Include="elements.html" />
     <Content Include="generic.html" />
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\pic01.jpg" />
-    <Content Include="images\pic02.jpg" />
-    <Content Include="images\pic03.jpg" />
-    <Content Include="images\pic04.jpg" />
-    <Content Include="images\pic05.jpg" />
-    <Content Include="images\pic06.jpg" />
-    <Content Include="images\pic07.jpg" />
-    <Content Include="images\pic08.jpg" />
-    <Content Include="blog.html" />
     <Content Include="LICENSE.txt" />
     <None Include="README.md" />
     <Content Include="Web.config" />
@@ -160,9 +153,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
