@@ -59,13 +59,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\about.css" />
     <Content Include="assets\css\default.css" />
+    <Content Include="assets\css\global.css" />
+    <Content Include="assets\css\products.css" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\images\ACE_cover.PNG" />
     <Content Include="assets\images\chrome-capture.PNG" />
+    <Content Include="assets\images\corbour_01.png" />
+    <Content Include="assets\images\corbour_02.png" />
+    <Content Include="assets\images\corbour_03.png" />
+    <Content Include="assets\images\pasted1.png" />
+    <Content Include="assets\images\pasted2.png" />
+    <Content Include="assets\images\secciones_para_ilustrar.png" />
+    <Content Include="assets\images\upload_7_25_2016_at_2_51_14_PM %281%29.png" />
+    <Content Include="assets\js\app\application.js" />
     <Content Include="assets\js\app\system\animations.js" />
     <Content Include="assets\sass\ie8.scss" />
     <Content Include="assets\sass\ie9.scss" />
@@ -118,6 +130,8 @@
     <Content Include="assets\js\alllib\angular-route.min.js" />
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
+    <Content Include="sections\Products.html" />
+    <Content Include="sections\About2.html" />
     <Content Include="sections\About.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="assets\js\alllib\jquery-1.9.1.min.map" />

@@ -1,0 +1,14 @@
+﻿.summary-co {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+
+    margin: 5vw 2vh;
+    
+}
+
+.new-section-start {
+    margin-top: 15vh;
+}
