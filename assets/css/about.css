@@ -1,18 +1,7 @@
-﻿.summary {
-    margin: 25px 0;
-    width: auto;
-    height: auto;
-    padding: 0;
-}
-
-.summary-text {
+﻿.summary-text {
     margin-left: 0;
     margin-right: 0;
     padding: 0;
-}
-
-.new-section-start {
-    margin: 10vh 0;
 }
 
 #content {

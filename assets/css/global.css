@@ -15,7 +15,6 @@ body {
     font-size: 18px;
     font-weight: 300;
     color: black;
-    /*overflow-x: hidden;*/
 
     margin: 0;
     padding: 0;
@@ -42,6 +41,4 @@ h3 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     color: #303030;
-    margin-left: 2vh;
-    margin-right: 2vh;
 }

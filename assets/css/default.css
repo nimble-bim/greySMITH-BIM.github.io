@@ -11,7 +11,7 @@
 
 #menu {
     margin-top: 40px;
-    margin-left: 200px
+    margin-left: 10vw;
 }
 
 #menu li {
@@ -39,9 +39,19 @@
 }
 
 #main-content {
-    
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
+    padding: 0;
+}
+
+.new-section-start {
+    margin: 10vh 0;
+}
+
+.summary {
+    margin: 25px 0;
+    width: auto;
+    height: auto;
     padding: 0;
 }

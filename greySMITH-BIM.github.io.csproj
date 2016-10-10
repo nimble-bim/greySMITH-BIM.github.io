@@ -62,6 +62,7 @@
     <Content Include="assets\css\about.css" />
     <Content Include="assets\css\default.css" />
     <Content Include="assets\css\global.css" />
+    <Content Include="assets\css\news.css" />
     <Content Include="assets\css\products.css" />
     <Content Include="assets\css\test.css" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
