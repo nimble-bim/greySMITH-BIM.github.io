@@ -63,6 +63,7 @@
     <Content Include="assets\css\default.css" />
     <Content Include="assets\css\global.css" />
     <Content Include="assets\css\products.css" />
+    <Content Include="assets\css\test.css" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
@@ -110,7 +111,7 @@
     <Content Include="assets\css\lib\bootstrap.css" />
     <Content Include="assets\css\lib\bootstrap.min.css" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="index.html" />
+    <Content Include="Home.html" />
     <Content Include="packages.config" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
@@ -134,6 +135,7 @@
     <Content Include="sections\Products.html" />
     <Content Include="sections\About2.html" />
     <Content Include="sections\About.html" />
+    <Content Include="test.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="assets\js\alllib\jquery-1.9.1.min.map" />
     <Content Include="assets\js\alllib\angular.min.js.map" />
