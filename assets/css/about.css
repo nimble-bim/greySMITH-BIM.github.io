@@ -1,14 +1,24 @@
-﻿.summary-co {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    -ms-column-count: 2;
-    -o-column-count: 2;
-    column-count: 2;
+﻿.summary {
+    margin: 25px 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
 
-    margin: 25px 2vh;
-    
+.summary-text {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 
 .new-section-start {
-    margin-top: 15vh;
+    margin: 10vh 0;
+}
+
+#content {
+    border: 1px solid blue;
+}
+
+#summary2 {
+    padding-left: 50px;
 }

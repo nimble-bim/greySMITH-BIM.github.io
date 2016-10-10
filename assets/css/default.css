@@ -9,9 +9,15 @@
     color: #7B7B7B;
 }
 
+#menu {
+    margin-top: 40px;
+    margin-left: 200px
+}
+
 #menu li {
     display: inline-block;
     margin-right: 10vw;
+    font-weight: 400;
 }
 
 #menu li:hover {
@@ -26,6 +32,16 @@
 
 #contact {
     position: fixed;
-    font-size: 50px;
+    font-size: 24px;
+    bottom: 0;
+    right: 50px;
+    font-weight: 400;
 }
 
+#main-content {
+    
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
