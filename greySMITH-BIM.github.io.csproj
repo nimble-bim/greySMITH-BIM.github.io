@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>html5up</RootNamespace>
-    <AssemblyName>html5up</AssemblyName>
+    <RootNamespace>GREYSMITH</RootNamespace>
+    <AssemblyName>GREYSMITH</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -69,6 +69,7 @@
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\css\home.css" />
     <Content Include="assets\images\ACE_cover.PNG" />
     <Content Include="assets\images\chrome-capture.PNG" />
     <Content Include="assets\images\corbour_01.png" />
@@ -111,7 +112,7 @@
     <Content Include="assets\css\lib\bootstrap.css" />
     <Content Include="assets\css\lib\bootstrap.min.css" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Home.html" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
