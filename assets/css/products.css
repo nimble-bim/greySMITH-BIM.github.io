@@ -1,0 +1,18 @@
+﻿#mainstage {
+    position: absolute;
+}
+
+#content-nimble {
+    transform: scale(2.5);
+
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#menu {
+    z-index: 5;
+}
+#summary-nimble {
+    margin-top: 25px;
+    width: 400px;
+}

@@ -1,2 +1,4 @@
 ﻿name: GREYSMITH, Digital Makers
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+url: "GREYSMITH.com"

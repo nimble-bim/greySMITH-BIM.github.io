@@ -1,0 +1,57 @@
+﻿.greysmith {
+    font-family: 'Oswald', sans-serif;
+}
+.grey {
+    color: #303030;
+}
+
+.smith {
+    color: #7B7B7B;
+}
+
+#menu {
+    margin-top: 40px;
+    margin-left: 10vw;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 10vw;
+    font-weight: 400;
+}
+
+#menu li:hover {
+    border-bottom: 2px solid black;
+}
+
+#main-title {
+    text-align: center;
+    min-height: 100vh;
+    min-height: 100%;
+}
+
+#contact {
+    position: fixed;
+    font-size: 24px;
+    bottom: 0;
+    right: 50px;
+    font-weight: 400;
+}
+
+#main-content {
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.new-section-start {
+    margin: 10vh 0;
+}
+
+.summary {
+    margin: 25px 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+}

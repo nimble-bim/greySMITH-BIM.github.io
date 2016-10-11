@@ -1,0 +1,39 @@
+﻿
+#title-row {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+#title-container {
+    position: relative;
+
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+}
+
+#greysmith {
+    position: relative;
+    vertical-align: middle;
+    top: 25%;
+    
+    font-size: 20vw;
+    font-weight: 300;
+}
+
+#enter-cue {
+    position: relative;
+    vertical-align: middle;
+
+    top: 350px;
+    font-size: 25px;
+}
+
