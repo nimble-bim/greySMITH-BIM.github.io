@@ -33,9 +33,10 @@
 #contact {
     position: fixed;
     font-size: 24px;
-    bottom: 0;
+    bottom: 50px;
     right: 50px;
     font-weight: 400;
+    color: #303030;
 }
 
 #main-content {
@@ -54,4 +55,14 @@
     width: auto;
     height: auto;
     padding: 0;
+}
+
+#footer-text {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #303030;
+    /*position: absolute;
+    bottom: 0;
+    margin: 0;*/
 }
