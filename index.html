@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en-us" data-ng-app="application">
+<html lang="en-us" 
+	  data-ng-app="app">
     <head>
         <title>GREYSMITH - Digital Makers</title>
 
@@ -17,23 +18,15 @@
     </head>
 
 	<body>
-		<section id="Home">
-			<div id="title-row" class="row">
-				<div id="title-container" class="col-md-12 greysmith">
-					<p id="greysmith"><span class="grey">GREY</span><span class="smith">SMITH</span></p>
-					<a id="enter-cue"
-					   href="sections/About.html"
-					   >Enter</a>
-				</div>
-			</div>
-		</section>
+		<div ng-view></div>
 
 		<!--Angular Scripts-->
 		<script src="assets/js/alllib/angular.js"></script>
 		<script src="assets/js/alllib/angular-route.js"></script>
 
 		<!--Project Scripts-->
-		<script src="assets/js/app/application.js"></script>
+		<script src="assets/js/app/app.module.js"></script>
+		<script src="assets/js/app/app.router.js"></script>
 		<!--<script src="assets/js/app/system/animations.js"></script>-->
 	</body>
 </html>
