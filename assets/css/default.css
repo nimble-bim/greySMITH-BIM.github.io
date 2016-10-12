@@ -10,8 +10,12 @@
 }
 
 #menu {
-    margin-top: 40px;
-    margin-left: 10vw;
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, .85)    
+}
+
+#menu-list {
+    margin-top: 20px;
 }
 
 #menu li {
