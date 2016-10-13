@@ -2,7 +2,7 @@
 <html lang="en-us"
       data-ng-app="app">
 	<head>
-		<title>GREYSMITH - Digital Makers</title>
+		<title>GREYSMITH | </title>
 
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -17,11 +17,17 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/about.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/products.css">
-		<!--<link rel="stylesheet" type="text/css" href="assets/css/news.css">-->
+		<link rel="stylesheet" type="text/css" href="assets/css/news.css">
 	</head>
 
 	<body>
-		<div ng-view></div>
+		<div ng-include src="'sections/navbar.html'"></div>
+
+		<div data-ng-view></div>
+
+		<div id="contact-area">
+			<p id="contact">Contact Us.</p>
+		</div>
 
 		<!--Angular Scripts-->
 		<script src="assets/js/alllib/angular.js"></script>

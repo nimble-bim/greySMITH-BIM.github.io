@@ -137,6 +137,7 @@
     <Content Include="assets\js\alllib\angular-route.min.js" />
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
+    <Content Include="sections\navbar.html" />
     <Content Include="sections\News.html" />
     <Content Include="sections\_Shell.html" />
     <Content Include="test.html" />
