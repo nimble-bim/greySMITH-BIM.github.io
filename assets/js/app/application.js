@@ -1,6 +1,0 @@
-﻿(function() {
-
-    angular
-        .module('application', []);
-
-})();
