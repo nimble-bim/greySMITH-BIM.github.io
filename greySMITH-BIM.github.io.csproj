@@ -80,7 +80,11 @@
     <Content Include="assets\images\pasted2.png" />
     <Content Include="assets\images\secciones_para_ilustrar.png" />
     <Content Include="assets\images\upload_7_25_2016_at_2_51_14_PM %281%29.png" />
-    <Content Include="assets\js\app\application.js" />
+    <Content Include="assets\js\app\about\about.controller.js" />
+    <Content Include="assets\js\app\about\about.module.js" />
+    <Content Include="assets\js\app\app.controller.js" />
+    <Content Include="assets\js\app\app.module.js" />
+    <Content Include="assets\js\app\app.router.js" />
     <Content Include="assets\js\app\system\animations.js" />
     <Content Include="assets\sass\ie8.scss" />
     <Content Include="assets\sass\ie9.scss" />
@@ -134,9 +138,7 @@
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
     <Content Include="sections\News.html" />
-    <Content Include="sections\Products.html" />
-    <Content Include="sections\About2.html" />
-    <Content Include="sections\About.html" />
+    <Content Include="sections\_Shell.html" />
     <Content Include="test.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="assets\js\alllib\jquery-1.9.1.min.map" />
