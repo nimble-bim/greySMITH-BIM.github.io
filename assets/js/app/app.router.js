@@ -10,8 +10,8 @@
         $locationProvider.hashPrefix('');
 
         $routeProvider
-            .when('/', { templateUrl: 'sections/_Shell.html', controller: 'mainController', controllerAs: 'vm' })
-            .when('/News', { templateUrl: 'sections/News.html', controller: 'newsController', controllerAs: 'vm' })
+            .when('/', { templateUrl: 'sections/_Shell.html', controller: 'aboutController', controllerAs: 'vm' })
+            .when('/News', { templateUrl: 'sections/NewNews.html', controller: 'newsController', controllerAs: 'newsVm' })
             .otherwise('/');
     }
 })();

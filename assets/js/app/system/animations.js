@@ -1,28 +1,37 @@
 ﻿(function () {
 
-    $("#page-enter")
-        .click(
-            function() {
-                $("#head").
-                animate({
+    hoverOnContact();
 
-                },
-                500);
-            });
+    function hoverOnContact() {
 
-    $('#contact')
-        .hover(
-            function() {
-                $(this).fadeOut(500,
+        $('#contact')
+            .hover(
                 function() {
-                    $(this).text('info@greysmith.com').fadeIn(250);});
+                    $(this)
+                        .fadeOut(500,
+                            function() {
+                                $(this).text('info@greysmith.com').fadeIn(250);
+                            });
+                },
+                function() {
+                    $(this)
+                        .fadeOut(500,
+                            function() {
+                                $(this).text('Contact Us.').fadeIn(150);
+                            }
+                        );
+                });
+    }
+
+    $("#page-enter")
+    .click(
+        function () {
+            $("#head").
+            animate({
+
             },
-            function() {
-                $(this).fadeOut(500,
-                    function() {
-                        $(this).text('Contact Us.').fadeIn(150);
-                    }
-            )});
-    console.log($);
+            500);
+        });
+
 
 })();

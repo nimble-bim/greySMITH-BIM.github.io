@@ -5,7 +5,7 @@
         [
             'ngRoute',
 
-            'app.about'
+            'app.about', 'app.news'
         ]);
 
 })();

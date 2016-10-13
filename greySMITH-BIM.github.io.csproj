@@ -85,6 +85,7 @@
     <Content Include="assets\js\app\app.controller.js" />
     <Content Include="assets\js\app\app.module.js" />
     <Content Include="assets\js\app\app.router.js" />
+    <Content Include="assets\js\app\news\news.controller.js" />
     <Content Include="assets\js\app\system\animations.js" />
     <Content Include="assets\sass\ie8.scss" />
     <Content Include="assets\sass\ie9.scss" />
@@ -111,7 +112,6 @@
     <Content Include="assets\sass\libs\_vars.scss" />
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
-    <Content Include="blog\index.html" />
     <Content Include="assets\css\lib\bootstrap-theme.css" />
     <Content Include="assets\css\lib\bootstrap-theme.min.css" />
     <Content Include="assets\css\lib\bootstrap.css" />
@@ -138,6 +138,7 @@
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
     <Content Include="sections\navbar.html" />
+    <Content Include="sections\NewNews.html" />
     <Content Include="sections\News.html" />
     <Content Include="sections\_Shell.html" />
     <Content Include="test.html" />
@@ -145,6 +146,7 @@
     <Content Include="assets\js\alllib\jquery-1.9.1.min.map" />
     <Content Include="assets\js\alllib\angular.min.js.map" />
     <Content Include="assets\js\alllib\angular-route.min.js.map" />
+    <Content Include="assets\js\app\news\news.module.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -152,10 +154,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="_config.yml" />
+    <Content Include="_layouts\newspost.html" />
     <Content Include="_layouts\post.html" />
     <Content Include="_posts\2016-10-08-windows-version.md" />
     <Content Include="_posts\2016-10-07-from-draft.md" />
     <Content Include="_drafts\draft-post.md" />
+    <Content Include="_posts\2016-10-13-angular-blog-test.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
