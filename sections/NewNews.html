@@ -13,9 +13,11 @@
 						{{ post.title }}
 					</h2>
 
-					<p id="summary" class="summary-co">
-						{{ post.content }}
-					</p>
+					<div id="summary"
+						 class="summary-co"
+						 btf-markdown ng-include="'_posts/2016-10-07-from-draft.md'">
+						
+					</div>
 				</div>
 			</div>
 		</li>

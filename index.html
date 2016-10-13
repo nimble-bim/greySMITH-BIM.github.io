@@ -23,6 +23,12 @@
 	<body>
 		<div ng-include src="'sections/navbar.html'"></div>
 
+		<div id="summary"
+			 class="summary-co"
+			 btf-markdown ng-include="'_posts/2016-10-07-from-draft.md'">
+
+		</div>
+
 		<div data-ng-view></div>
 
 		<div id="contact-area">
@@ -33,6 +39,10 @@
 		<script src="assets/js/alllib/angular.js"></script>
 		<script src="assets/js/alllib/angular-route.js"></script>
 		<script src="assets/js/alllib/jquery-1.9.1.js"></script>
+
+		<script src="assets/js/alllib/bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="assets/js/alllib/bower_components/showdown/src/showdown.js"></script>
+		<script src="assets/js/alllib/bower_components/angular-markdown-directive/markdown.js"></script>
 
 		<!--Project Scripts-->
 		<script src="assets/js/app/app.module.js"></script>
