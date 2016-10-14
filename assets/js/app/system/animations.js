@@ -10,7 +10,7 @@
                     $(this)
                         .fadeOut(500,
                             function() {
-                                $(this).text('info@greysmith.com').fadeIn(250);
+                                $(this).text('info@grey-smith.com').fadeIn(250);
                             });
                 },
                 function() {
