@@ -21,14 +21,7 @@
 	</head>
 
 <body>
-	<div ng-include="'sections/navbar.html'"></div>
-
-	<div btf-markdown ng-include="'README.md'"></div>
-
-	<!--<div id="summary"
-			 class="summary-co"
-			 btf-markdown ng-include="'posts/2016-10-07-from-draft.md'">-->
-	<!--</div>-->
+	<div data-ng-include="'sections/navbar.html'"></div>
 
 	<div data-ng-view></div>
 
@@ -41,10 +34,6 @@
 	<script src="assets/js/alllib/angular.js"></script>
 	<script src="assets/js/alllib/angular-route.js"></script>
 	<script src="assets/js/alllib/jquery-1.9.1.js"></script>
-
-	<script src="assets/js/alllib/bower_components/angular-sanitize/angular-sanitize.js"></script>
-	<script src="assets/js/alllib/bower_components/showdown/src/showdown.js"></script>
-	<script src="assets/js/alllib/bower_components/angular-markdown-directive/markdown.js"></script>
 
 	<!--Project Scripts-->
 	<script src="assets/js/app/app.module.js"></script>

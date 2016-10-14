@@ -3,7 +3,7 @@
     angular
         .module('app',
         [
-            'ngRoute', 'btford.markdown',
+            'ngRoute', 
 
             'app.about', 'app.news'
         ]);
