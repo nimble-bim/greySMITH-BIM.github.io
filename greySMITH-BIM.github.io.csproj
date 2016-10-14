@@ -86,6 +86,7 @@
     <Content Include="assets\js\app\app.module.js" />
     <Content Include="assets\js\app\app.router.js" />
     <Content Include="assets\js\app\news\news.controller.js" />
+    <Content Include="assets\js\app\news\news.postalService.js" />
     <Content Include="assets\js\app\system\animations.js" />
     <Content Include="assets\sass\ie8.scss" />
     <Content Include="assets\sass\ie9.scss" />
@@ -174,7 +175,7 @@
     <Content Include="elements.html" />
     <Content Include="generic.html" />
     <Content Include="LICENSE.txt" />
-    <None Include="README.md" />
+    <Content Include="README.md" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -211,8 +212,8 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>cd /d $(ProjectDir)
-jekyll build</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
