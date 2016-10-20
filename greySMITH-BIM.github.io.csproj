@@ -118,6 +118,9 @@
     <Content Include="assets\css\lib\bootstrap.css" />
     <Content Include="assets\css\lib\bootstrap.min.css" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="blog\2016\10\08\from-draft.html" />
+    <Content Include="blog\2016\10\08\windows-version.html" />
+    <Content Include="blog\2016\10\13\angular-blog-test.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
@@ -138,7 +141,7 @@
     <Content Include="assets\js\alllib\angular-route.min.js" />
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
-    <Content Include="posts\elements.html" />
+    <Content Include="_posts\elements.html" />
     <Content Include="sections\navbar.html" />
     <Content Include="sections\NewNews.html" />
     <Content Include="sections\News.html" />
@@ -158,10 +161,10 @@
     <Content Include="_config.yml" />
     <Content Include="_layouts\newspost.html" />
     <Content Include="_layouts\post.html" />
-    <Content Include="posts\2016-10-08-windows-version.md" />
-    <Content Include="posts\2016-10-07-from-draft.md" />
+    <Content Include="_posts\2016-10-08-windows-version.md" />
+    <Content Include="_posts\2016-10-07-from-draft.md" />
     <Content Include="_drafts\draft-post.md" />
-    <Content Include="posts\2016-10-13-angular-blog-test.md" />
+    <Content Include="_posts\2016-10-13-angular-blog-test.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
@@ -212,8 +215,8 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>cd /d $(ProjectDir)
+jekyll build</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,18 +1,7 @@
 <div id="allnews">
 	<ul>
 		<li data-ng-repeat="post in newsVm.posts">
-			<div class="row new-section-start">
-				<div id="news-content"
-					 class="col-md-12"
-					 style="background: url({{ post.mainImageUrl }}); width: 100%; height: 600px; background-repeat: no-repeat; background-size: cover;">
-					>
-				</div>
-
-				<div class="col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2">
-					<h2 id="{{post.title}}">
-						{{ post.title }}
-					</h2>
-				</div>
+			<div ng-include="post.location">
 			</div>
 		</li>
 	</ul>
