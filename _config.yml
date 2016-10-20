@@ -2,3 +2,4 @@
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 url: "GREYSMITH.com"
+exclude: [README.md]

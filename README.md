@@ -2,8 +2,6 @@
 title: "Something fascinating"
 author: "Jenny Bryan"
 date: "`r format(Sys.Date())`"
-output:
-html_document:
 keep_md: TRUE
 ---
 
