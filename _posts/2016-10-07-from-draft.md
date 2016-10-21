@@ -1,9 +1,29 @@
 ---
-layout: post
-title: Windows Explorer Guy
-date: 2016-10-08
+layout: newspost
+title: From Draft
+date: 2016-10-04
+coverimage: ../../../../assets/images/corbour_02.png
 ---
 
-This is a file made from a copy of the Windows thing.
+### A Title meant to check the size of H3
 
-Let's see if it works
+Some sort of draft of items
+
+- Blah
+- and also blah
+
+```
+Checking out the quoting ability
+```
+
+```Javascript
+function(){
+
+    // checking out the coding ability
+    var x = 2;
+    if(x + x === 4)
+        return true;
+
+    return null;
+}
+```

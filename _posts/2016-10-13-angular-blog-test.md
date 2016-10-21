@@ -21,7 +21,7 @@ This is a quote block below
     pervit, oculi sil hili simussigilic te auctus, videsil icaecte rnihili natius
     hos, vicum in se nostiam ex sultod int? Ahabem iactus iliam publi furopub
 
-```Javascript
+```javascript
 // This is all code
 
 (function(){

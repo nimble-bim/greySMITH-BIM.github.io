@@ -1,9 +1,8 @@
 ﻿name: GREYSMITH, Digital Makers
 markdown: kramdown
 kramdown: 
-	input: GFM
-	hard_wrap: false
-
+input: GFM
+hard_wrap: false
 permalink: /blog/:year/:month/:day/:title
 url: "GREYSMITH.com"
 exclude: [README.md]

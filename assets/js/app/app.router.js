@@ -10,7 +10,7 @@
         $locationProvider.hashPrefix('');
 
         $routeProvider
-            .when('/', { templateUrl: 'sections/_Shell.html', controller: 'aboutController', controllerAs: 'vm' })
+            .when('/', { templateUrl: 'sections/Shell.html', controller: 'aboutController', controllerAs: 'vm' })
             .when('/News', { templateUrl: 'sections/NewNews.html', controller: 'newsController', controllerAs: 'newsVm' })
             .otherwise('/');
     }
