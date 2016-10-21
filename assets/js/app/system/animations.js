@@ -23,15 +23,25 @@
                 });
     }
 
-    $("#page-enter")
-    .click(
-        function () {
-            $("#head").
-            animate({
+    $(document).ready(function() {
 
-            },
-            500);
-        });
+        //$('#news-list').affix({
+        //    offset: {
+        //        top: 600,
+        //        bottom: function () {
+        //            return (this.bottom = $('.footer').outerHeight(true));
+        //        }
+        //    }
+        //});
 
+        $("#page-enter")
+            .click(
+                function () {
+                    $("#head").
+                    animate({
 
+                    },
+                    500);
+                });
+    });
 })();

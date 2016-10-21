@@ -17,37 +17,37 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/about.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/products.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/news.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/news.css">
+
+        <script src="assets/js/alllib/jquery.min.js"></script>
+        <script src="assets/js/alllib/bootstrap.js"></script>
 	</head>
 
-<body>
-	<div data-ng-include="'sections/navbar.html'"></div>
+    <body>
+        <div data-ng-view></div>
 
-	<div data-ng-view></div>
+        <div id="contact-area">
+            <a id="contact"
+               href="mailTo:info@grey-smith.com">Contact Us.</a>
+        </div>
 
-	<div id="contact-area">
-		<a id="contact"
-		   href="mailTo:info@grey-smith.com">Contact Us.</a>
-	</div>
+        <!--Angular Scripts-->
+        <script src="assets/js/alllib/angular.js"></script>
+        <script src="assets/js/alllib/angular-route.js"></script>
 
-	<!--Angular Scripts-->
-	<script src="assets/js/alllib/angular.js"></script>
-	<script src="assets/js/alllib/angular-route.js"></script>
-	<script src="assets/js/alllib/jquery-1.9.1.js"></script>
+        <!--Project Scripts-->
+        <script src="assets/js/app/app.module.js"></script>
+        <script src="assets/js/app/app.router.js"></script>
+        <script src="assets/js/app/app.controller.js"></script>
 
-	<!--Project Scripts-->
-	<script src="assets/js/app/app.module.js"></script>
-	<script src="assets/js/app/app.router.js"></script>
-	<script src="assets/js/app/app.controller.js"></script>
+        <script src="assets/js/app/about/about.module.js"></script>
+        <script src="assets/js/app/about/about.controller.js"></script>
 
-	<script src="assets/js/app/about/about.module.js"></script>
-	<script src="assets/js/app/about/about.controller.js"></script>
+        <script src="assets/js/app/news/news.module.js"></script>
+        <script src="assets/js/app/news/news.controller.js"></script>
 
-	<script src="assets/js/app/news/news.module.js"></script>
-	<script src="assets/js/app/news/news.controller.js"></script>
-
-	<script src="assets/js/app/system/animations.js"></script>
-</body>
+        <script src="assets/js/app/system/animations.js"></script>
+    </body>
 </html>
 <footer>
 	<div id="footer-text">

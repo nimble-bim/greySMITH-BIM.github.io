@@ -146,7 +146,6 @@
     <Content Include="_layouts\none.html" />
     <Content Include="_posts\elements.html" />
     <Content Include="sections\navbar.html" />
-    <Content Include="sections\NewNews.html" />
     <Content Include="sections\News.html" />
     <Content Include="sections\Shell.html" />
     <Content Include="test.html" />

@@ -1,4 +1,9 @@
-<div id="news-list" data-ng-include="'blog/list.html'"></div>
+<div data-ng-include="'sections/navbar.html'"></div>
+
+<div id="news-list"
+     data-spy="affix"
+     data-offset-top="600"
+     data-ng-include="'blog/list.html'"></div>
 
 <div id="allnews">
     <div ng-include="'blog/allposts.html'"></div>
