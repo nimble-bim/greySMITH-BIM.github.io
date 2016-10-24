@@ -1,16 +1,16 @@
-﻿//(function() {
+﻿(function() {
 
-//    'use strict';
+    'use strict';
 
-//    angular
-//        .module('app')
-//        .controller('aboutController', aboutController);
+    angular
+        .module('app')
+        .controller('mainController', mainController);
 
-//    function aboutController($scope, $location, $anchorScroll) {
-//        $scope.scrollTo = (function(id) {
-//            $location.hash(id);
-//            $anchorScroll();
-//        });
-//    }
+    function mainController($scope, $location, $anchorScroll) {
+        $scope.scrollTo = function(id) {
+            $location.hash(id);
+            $anchorScroll();
+        };
+    }
 
-//})();
+})();

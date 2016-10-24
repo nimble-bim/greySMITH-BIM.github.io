@@ -2,7 +2,7 @@
 <html lang="en-us"
       data-ng-app="app">
 	<head>
-		<title>GREYSMITH - Digital Makers</title>
+		<title>GREYSMITH | </title>
 
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -17,36 +17,48 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/about.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/products.css">
-		<!--<link rel="stylesheet" type="text/css" href="assets/css/news.css">-->
+	    <link rel="stylesheet" type="text/css" href="assets/css/news.css">
 	</head>
 
-	<body>
-		<div ng-view></div>
+    <body>
+        <div data-ng-include="'sections/navbar.html'"></div>
 
-		<!--Angular Scripts-->
-		<script src="assets/js/alllib/angular.js"></script>
-		<script src="assets/js/alllib/angular-route.js"></script>
+        <div data-ng-view></div>
 
-		<!--Project Scripts-->
-		<script src="assets/js/app/app.module.js"></script>
-		<script src="assets/js/app/app.router.js"></script>
-		<script src="assets/js/app/app.controller.js"></script>
+        <div id="contact-area">
+            <a id="contact"
+               href="mailTo:info@grey-smith.com">Contact Us.</a>
+        </div>
 
+        <footer>
+            <div id="footer-text">
+                <p>
+                    <span>2015 - 2016 GREYSMITH s.r.o. All Rights Reserved</span><br/>
+                    <span>Developed with passion, rigor & <span style="color: lightseagreen">remotely</span></span><br/>
+                    <span>Legal Stuff</span><br/>
+                    <span>Privacy</span><br/>
+                </p>
+            </div>
+        </footer>
 
-		<script src="assets/js/app/about/about.module.js"></script>
-		<script src="assets/js/app/about/about.controller.js"></script>
+        <!--Angular Scripts-->
+        <script src="assets/js/alllib/angular.js"></script>
+        <script src="assets/js/alllib/angular-route.js"></script>
 
+        <!--Project Scripts-->
+        <script src="assets/js/app/app.module.js"></script>
+        <script src="assets/js/app/app.router.js"></script>
+        <script src="assets/js/app/app.controller.js"></script>
 
-		<!--<script src="assets/js/app/system/animations.js"></script>-->
-	</body>
+        <script src="assets/js/app/about/about.module.js"></script>
+        <script src="assets/js/app/about/about.controller.js"></script>
+
+        <script src="assets/js/app/news/news.module.js"></script>
+        <script src="assets/js/app/news/news.controller.js"></script>
+
+        <script src="assets/js/alllib/jquery.min.js"></script>
+        <script src="assets/js/alllib/bootstrap.js"></script>
+
+        <script src="assets/js/app/system/animations.js"></script>
+    </body>
 </html>
-<footer>
-	<div id="footer-text">
-		<p>
-			<span>2015 - 2016 GREYSMITH s.r.o. All Rights Reserved</span><br />
-			<span>Developed with passion, rigor & <span style="color: lightseagreen">remotely</span></span><br />
-			<span>Legal Stuff</span><br />
-			<span>Privacy</span><br />
-		</p>
-	</div>
-</footer>

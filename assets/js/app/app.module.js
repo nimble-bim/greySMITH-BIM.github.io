@@ -3,9 +3,9 @@
     angular
         .module('app',
         [
-            'ngRoute',
+            'ngRoute', 
 
-            'app.about'
+            'app.about', 'app.news'
         ]);
 
 })();
