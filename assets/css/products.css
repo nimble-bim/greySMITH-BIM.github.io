@@ -1,5 +1,6 @@
 ﻿#mainstage {
     position: absolute;
+    height: 100%;
 }
 
 #content-nimble {
@@ -7,6 +8,7 @@
 
     margin-left: 40%;
     margin-top: 10%;
+    /*visibility: hidden;*/
 }
 
 #menu {
@@ -15,4 +17,8 @@
 #summary-nimble {
     margin-top: 25px;
     width: 400px;
+}
+
+.new-section-start {
+    height: 100%;
 }

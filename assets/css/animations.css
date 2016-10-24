@@ -1,0 +1,36 @@
+﻿/* ANIMATIONS
+============================================================================= */
+
+.ng-enter {
+    animation: slideInUp 2s both ease-in; 
+    z-index: 8888;
+}
+
+.ng-leave {
+    animation: slideOutLeft 0.5s both ease-in; 
+    z-index: 9999;
+}
+
+/* leaving animations ----------------------------------------- */
+
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+/* entering animations --------------------------------------- */
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+    from    { opacity: 0.01; }
+    /*to      { transform: translateY(0);
+              opacity: 1.0;}*/
+}
+
+
