@@ -1,7 +1,5 @@
 ﻿(function () {
 
-    hoverOnContact();
-
     function hoverOnContact() {
 
         $('#contact')
@@ -34,6 +32,8 @@
         //    }
         //});
 
+
+
         $("#page-enter")
             .click(
                 function () {
@@ -44,4 +44,6 @@
                     500);
                 });
     });
+
+    hoverOnContact();
 })();

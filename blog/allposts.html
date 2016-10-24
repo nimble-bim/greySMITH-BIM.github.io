@@ -3,7 +3,7 @@ layout: none
 ---
 
 <div id="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
     <div ng-include="'{{post.url | url_to_string }}.html'"></div>
     {% endfor %}
 </div>

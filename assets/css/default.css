@@ -12,6 +12,7 @@
 #menu {
     background-color: #ffffff;
     background-color: rgba(255, 255, 255, .85);
+    border-radius: 0px;
 }
 
 #menu-list {
@@ -76,13 +77,13 @@
 }
 
 .affix {
-    top: 0;
+    top: 0px;
     width: 100%;
     z-index: 99 !important;
 }
 
 .affix-top {
     position: static;
-    top: -35px;
+    width: 100%;
 }
 
