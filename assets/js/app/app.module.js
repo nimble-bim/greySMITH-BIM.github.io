@@ -3,7 +3,7 @@
     angular
         .module('app',
         [
-            'ngRoute', 
+            'ngRoute', 'ngAnimate',
 
             'app.about', 'app.news'
         ]);

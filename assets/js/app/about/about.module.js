@@ -4,7 +4,7 @@
     angular
         .module('app.about',
         [
-            'ngRoute'
+            'ngRoute', 'ngAnimate'
         ]);
 
 })();

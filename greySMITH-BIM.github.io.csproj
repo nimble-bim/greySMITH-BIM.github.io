@@ -65,6 +65,7 @@
     <Content Include="assets\blogimages\europe-city.jpg" />
     <Content Include="assets\blogimages\future-bldg-zaha.jpg" />
     <Content Include="assets\css\about.css" />
+    <Content Include="assets\css\animations.css" />
     <Content Include="assets\css\default.css" />
     <Content Include="assets\css\global.css" />
     <Content Include="assets\css\news.css" />
@@ -148,6 +149,11 @@
     <Content Include="assets\js\alllib\angular-route.min.js" />
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
+    <Content Include="assets\js\alllib\angular-animate.js" />
+    <Content Include="assets\js\alllib\angular-animate.min.js" />
+    <Content Include="page-home.html" />
+    <Content Include="page-about.html" />
+    <Content Include="page-contact.html" />
     <Content Include="_layouts\none.html" />
     <Content Include="sections\navbar.html" />
     <Content Include="sections\News.html" />
@@ -158,6 +164,7 @@
     <Content Include="assets\js\alllib\angular.min.js.map" />
     <Content Include="assets\js\alllib\angular-route.min.js.map" />
     <Content Include="assets\js\app\news\news.module.js" />
+    <Content Include="assets\js\alllib\angular-animate.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
