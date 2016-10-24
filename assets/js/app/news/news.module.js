@@ -3,7 +3,7 @@
 
     angular.module('app.news',
     [
-        'ngRoute'
+        'ngRoute', 'ngAnimate'
     ]);
 
 })();
