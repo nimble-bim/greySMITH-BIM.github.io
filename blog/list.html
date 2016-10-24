@@ -1,0 +1,13 @@
+---
+layout: none
+---
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <span>{{post.title}}</span>
+        <a href="{{post.url}}.html"
+           title="{{post.date | date_to_string}}_{{post.title}}"></a>
+    </li>
+    {% endfor %}
+</ul>

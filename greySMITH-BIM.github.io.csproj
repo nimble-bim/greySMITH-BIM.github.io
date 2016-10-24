@@ -59,7 +59,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\blogimages\bim-mgmt-google-search.PNG" />
+    <Content Include="assets\blogimages\city-backyard.jpg" />
+    <Content Include="assets\blogimages\city-scape.jpg" />
+    <Content Include="assets\blogimages\europe-city.jpg" />
+    <Content Include="assets\blogimages\future-bldg-zaha.jpg" />
     <Content Include="assets\css\about.css" />
+    <Content Include="assets\css\animations.css" />
     <Content Include="assets\css\default.css" />
     <Content Include="assets\css\global.css" />
     <Content Include="assets\css\news.css" />
@@ -80,8 +86,17 @@
     <Content Include="assets\images\pasted2.png" />
     <Content Include="assets\images\secciones_para_ilustrar.png" />
     <Content Include="assets\images\upload_7_25_2016_at_2_51_14_PM %281%29.png" />
-    <Content Include="assets\js\app\application.js" />
+    <Content Include="assets\js\app\about\about.controller.js" />
+    <Content Include="assets\js\app\about\about.module.js" />
+    <Content Include="assets\js\app\app.controller.js" />
+    <Content Include="assets\js\app\app.module.js" />
+    <Content Include="assets\js\app\app.router.js" />
+    <Content Include="assets\js\app\news\news.controller.js" />
+    <Content Include="assets\js\app\news\news.postalService.js" />
     <Content Include="assets\js\app\system\animations.js" />
+    <Content Include="assets\js\app\system\prestonAffix.js" />
+    <Content Include="assets\js\test.css" />
+    <Content Include="assets\js\test.js" />
     <Content Include="assets\sass\ie8.scss" />
     <Content Include="assets\sass\ie9.scss" />
     <Content Include="assets\sass\main.scss" />
@@ -107,12 +122,13 @@
     <Content Include="assets\sass\libs\_vars.scss" />
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
-    <Content Include="blog\index.html" />
     <Content Include="assets\css\lib\bootstrap-theme.css" />
     <Content Include="assets\css\lib\bootstrap-theme.min.css" />
     <Content Include="assets\css\lib\bootstrap.css" />
     <Content Include="assets\css\lib\bootstrap.min.css" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="blog\allposts.html" />
+    <Content Include="blog\list.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
@@ -133,15 +149,22 @@
     <Content Include="assets\js\alllib\angular-route.min.js" />
     <Content Include="assets\js\alllib\angular.js" />
     <Content Include="assets\js\alllib\angular.min.js" />
+    <Content Include="assets\js\alllib\angular-animate.js" />
+    <Content Include="assets\js\alllib\angular-animate.min.js" />
+    <Content Include="page-home.html" />
+    <Content Include="page-about.html" />
+    <Content Include="page-contact.html" />
+    <Content Include="_layouts\none.html" />
+    <Content Include="sections\navbar.html" />
     <Content Include="sections\News.html" />
-    <Content Include="sections\Products.html" />
-    <Content Include="sections\About2.html" />
-    <Content Include="sections\About.html" />
+    <Content Include="sections\Shell.html" />
     <Content Include="test.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="assets\js\alllib\jquery-1.9.1.min.map" />
     <Content Include="assets\js\alllib\angular.min.js.map" />
     <Content Include="assets\js\alllib\angular-route.min.js.map" />
+    <Content Include="assets\js\app\news\news.module.js" />
+    <Content Include="assets\js\alllib\angular-animate.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -149,10 +172,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="_config.yml" />
+    <Content Include="_layouts\newspost.html" />
     <Content Include="_layouts\post.html" />
-    <Content Include="_posts\2016-10-08-windows-version.md" />
-    <Content Include="_posts\2016-10-07-from-draft.md" />
+    <Content Include="_posts\2016-10-24-simple-bim.md" />
+    <Content Include="_posts\2016-10-07-bim-mgr-flavors.md" />
     <Content Include="_drafts\draft-post.md" />
+    <Content Include="_posts\2016-09-08-getting-into-BIM.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
@@ -166,7 +191,7 @@
     <Content Include="elements.html" />
     <Content Include="generic.html" />
     <Content Include="LICENSE.txt" />
-    <None Include="README.md" />
+    <Content Include="README.md" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
