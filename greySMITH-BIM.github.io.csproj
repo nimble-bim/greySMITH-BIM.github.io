@@ -90,7 +90,9 @@
     <Content Include="assets\js\app\about\about.module.js" />
     <Content Include="assets\js\app\app.controller.js" />
     <Content Include="assets\js\app\app.module.js" />
+    <Content Include="assets\js\app\navigation\nav.navigable.js" />
     <Content Include="assets\js\app\app.router.js" />
+    <Content Include="assets\js\app\navigation\nav.controller.js" />
     <Content Include="assets\js\app\news\news.controller.js" />
     <Content Include="assets\js\app\news\news.postalService.js" />
     <Content Include="assets\js\app\system\animations.js" />
@@ -165,6 +167,8 @@
     <Content Include="assets\js\alllib\angular-route.min.js.map" />
     <Content Include="assets\js\app\news\news.module.js" />
     <Content Include="assets\js\alllib\angular-animate.min.js.map" />
+    <Content Include="assets\js\app\navigation\nav.navigation.js" />
+    <Content Include="assets\js\app\navigation\nav.module.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

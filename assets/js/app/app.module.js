@@ -5,7 +5,7 @@
         [
             'ngRoute', 'ngAnimate',
 
-            'app.about', 'app.news'
+            'app.about', 'app.news', 'app.navigation'
         ]);
 
 })();

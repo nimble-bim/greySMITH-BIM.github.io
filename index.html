@@ -22,9 +22,10 @@
 	</head>
 
     <body>
-        <div data-ng-include="'sections/navbar.html'"></div>
+        <div gs-navigation-bar></div>
 
-        <div data-ng-view></div>
+        <div data-ng-view 
+             id="pageview"></div>
 
         <div id="contact-area">
             <a id="contact"
@@ -51,6 +52,11 @@
         <script src="assets/js/app/app.module.js"></script>
         <script src="assets/js/app/app.router.js"></script>
         <script src="assets/js/app/app.controller.js"></script>
+
+        <script src="assets/js/app/navigation/nav.module.js"></script>
+        <script src="assets/js/app/navigation/nav.controller.js"></script>
+        <script src="assets/js/app/navigation/nav.navigation.js"></script>
+        <script src="assets/js/app/navigation/nav.navigable.js"></script>
 
         <script src="assets/js/app/about/about.module.js"></script>
         <script src="assets/js/app/about/about.controller.js"></script>
